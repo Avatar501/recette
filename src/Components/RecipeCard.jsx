@@ -20,7 +20,7 @@ const RecipeCard = ({ recipe }) => {
   );
 };
 
-// PropTypes validation
+
 RecipeCard.propTypes = {
   recipe: PropTypes.shape({
     image: PropTypes.string.isRequired,
